@@ -77,5 +77,14 @@ class Aztec extends Warrior{
         return this.life + 10
     }
 }
+let warrior = new Warrior()
+let aztec = new Aztec(30,25)
+let maya = new Maya(30,25)
+console.log(aztec.drinkNesquik());
+console.log(maya.drinkColaCao());
+
+console.log(aztec.defend(maya.attack()));
+console.log(maya.defend(aztec.attack()));
+
 
 
